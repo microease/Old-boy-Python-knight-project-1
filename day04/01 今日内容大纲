@@ -1,0 +1,71 @@
+01 课前小甜点
+    千万不要随意做决定
+                   只要你做了决定，你要坚持下去。
+
+02 昨日内容回顾
+    int <---> bool :
+        非0  True   0 False
+        True   1    False  0
+    int <---> str
+        str(123)
+        int('123') :字符串必须全部是数字组成
+    bool<---> str
+        非空  True   空字符串   False
+        str(True)
+    s1 = 'alexsb'
+    1.索引
+        s1[0]
+    2.切片 顾头不顾腚
+        s1[:4]
+        s1[:]
+    3.切片+步长
+        s1[::2]
+        s1[100:] ?
+
+    操作方法：
+        upper lower 变大写，变小写   验证码
+        strip:默认去除去除首位的空格，换行符，制表符
+            strip(元素)
+            lstrip()
+            rstrip()
+        startswith  endswith  判断以...开头，结尾
+        find    通过元素找索引，找不到返回-1
+        index   通过元素找索引，找不到报错
+        replace 替换 (old,new,次数)
+        format
+            :'{}{}{}'.format('alex','man',1000)
+            :'{0}{1}{2}'.format('alex','man',1000)
+            :'{name}{age}{sex}'.format(name='alex',sex='man',age=1000)
+        count:查询次数
+        join:
+            '_'.join(interable)
+        split:
+            'alex wusir'.split()  ---> ['alex','wusir']
+            可以指定分隔符。
+            可以指定分割次数。
+             ' alex wusir'.split('') ---> ['','alex','wusir']
+        title: 每个非字母隔开的内容的首字母大写
+        len(): 统计字符串的字符的个数
+        isdigit(): 判断字符串是否全部有数字组成
+        isalpha():全部由字母组成
+        isalnum(): 全部由字母或数字组成。
+        swapcase():大小写反转
+        center():居中可设置填充物。
+        captilize() 首字母大写，其余的变成小写。
+
+
+03 作业讲解
+
+
+04 列表
+05 列表的索引，切片，步长
+06 列表的常用操作
+    增
+    删
+    改
+    查
+    其他操作
+07 列表的嵌套
+08 range
+09 预习内容
+10 今日作业
