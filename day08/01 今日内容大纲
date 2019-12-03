@@ -1,0 +1,79 @@
+01 上周内容回顾
+    (1),(1,)
+    list:
+        在循环中，最好不要改变列表的大小，可能会出错或报错。
+    dict:
+        在循环中，不要改变字典的大小，肯定报错。
+        dict.fromkeys(iteralbe,value)
+        vaule = []
+    set:
+        list(set(list))
+
+    深浅copy
+        list,dict,set
+        浅copy：
+            l1 = [1,2,3]
+            l2 = l1.copy()
+
+
+
+02 作业讲解
+03 今日内容--文件操作
+   031 文件操作初识。
+   护士主妇空姐私密联系方式.txt
+   文件路径：d:护士主妇空姐私密联系方式.txt
+   编码方式：utf-8,gbk,GB2312....
+   操作方式：只读，只写，写读，读写，追加 等。
+   报错原因：
+        UnicodeDecodeError: 'gb2312' codec can't decode byte 0xa6 in position 2: illegal multibyte sequence
+        编码不一致，存储文件时编码与打开文件时编码不一致。
+        r'd:\护士主妇空姐私密联系方式.txt'  路径问题
+        1，在路径的最前面，+ r
+        2，每个\ 变成 \\
+    绝对路径： d:\护士主妇空姐私密联系方式.txt 从根目录开始找
+    相对路径： 当前目录，当前文件夹。
+   032 读
+        r  *****
+        rb ***
+        r+ *****
+        r+b
+            read()  ***
+            read(n)
+            readline()
+            readlines()
+            for 循环  *****
+   033 写
+        w  ***
+        wb **
+        w+
+        w+b
+
+   034 追加
+        a ***
+        ab
+        a+
+        a+b
+
+
+   035 文件操作的其他方法
+        read() *****
+        write() *****
+        close() *****
+        seek() *****
+        tell() *****
+        readable() ****
+        writable() ****
+        trucante() **
+   036 文件的改 *****
+        import os
+        with open('alex的深度剖析', encoding='utf-8') as f1,\
+            open('alex的深度解析.bak',encoding='utf-8',mode='w') as f2:
+            for line in f1:
+                new_line = line.replace('SB','alex')
+                f2.write(new_line)
+        os.remove('alex的深度剖析')
+        os.rename('alex的深度解析.bak', 'alex的深度剖析')
+
+04 今日作业。
+
+05 准备考试。
