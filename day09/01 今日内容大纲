@@ -1,0 +1,46 @@
+01 前日内容回顾
+    三要素：文件路径，编码方式，操作模式
+    读
+        r
+            read() :全部内容
+            read(n):
+                在r模式下：字符。
+                在rb模式下：字节。
+            readline() 按行读取
+            readlines() ---> list 每个元素 都是文件中的每一行\n。
+            for 循环。
+        rb： 非文本文件，bytes类型。
+        r+：读写:先读后追加。
+        r+b：pass
+
+    写
+        w：
+            文件不存在，创建一个文件。
+            文件存在:将原文件内容清空。
+        wb
+        w+
+        w+b
+
+    追加
+        a :
+            文件不存在，创建一个文件。
+            文件存在:在最后直接追加。
+        ab
+        a+
+        a+b
+    常用方法：readable
+             writable
+             seek 移动光标
+             tell 告知光标的位置
+             truncate 截取
+    with open() as f1:
+        pass
+
+
+02 作业讲解
+03 函数的初识
+04 函数的返回值
+05 函数的参数
+06 预习内容
+    http://www.cnblogs.com/jin-xin/articles/8259929.html
+07 今日作业
