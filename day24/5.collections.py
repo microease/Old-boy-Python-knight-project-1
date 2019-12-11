@@ -72,12 +72,12 @@ from collections import defaultdict
 # list的缺点
 # 双端队列可以弥补
 # 队列
-# from collections import deque
-# dq = deque()
-# dq.append(1)
-# dq.append(2)
-# dq.appendleft(3)
-# print(dq)
+from collections import deque
+dq = deque()
+dq.append(1)
+dq.append(2)
+dq.appendleft(3)
+print(dq)
 # print(dq.pop())
 # print(dq.popleft())
 

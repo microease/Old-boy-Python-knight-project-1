@@ -1,0 +1,16 @@
+2018-09-06 12:33:07,581 - root - WARNING - input a string type
+2018-09-06 12:33:07,582 - root - ERROR - error message
+2018-09-06 12:33:07,582 - root - CRITICAL - critical message
+2018-09-06 12:34:11,722 - root - WARNING - input a string type
+2018-09-06 12:34:11,723 - root - ERROR - error message
+2018-09-06 12:34:11,723 - root - CRITICAL - critical message
+2018-09-06 12:35:21,003 - root - DEBUG - debug message
+2018-09-06 12:35:21,003 - root - INFO - info message
+2018-09-06 12:35:21,003 - root - WARNING - input a string type
+2018-09-06 12:35:21,003 - root - ERROR - error message
+2018-09-06 12:35:21,003 - root - CRITICAL - critical message
+2018-09-06 12:35:47,873 - root - DEBUG - debug message
+2018-09-06 12:35:47,873 - root - INFO - info message
+2018-09-06 12:35:47,874 - root - WARNING - input a string type
+2018-09-06 12:35:47,874 - root - ERROR - error message
+2018-09-06 12:35:47,874 - root - CRITICAL - critical message
